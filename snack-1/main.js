@@ -13,15 +13,23 @@ Steps
 4. else log
 
 */
-
+//chiedere il primo numero e salva in una variabile
 let firstNumber = prompt('Inserisci il numero')
 //console.log(firstNumber);
 
+//chiedere il secondo numero e salva in una variabile
 let secondNumber = prompt('Inserisci il numero')
 
-if(firstNumber>secondNumber){
+//SE num 1>num2 log il primo numero
+if (firstNumber > secondNumber) {
     console.log(firstNumber);
-}else{
+}
+//ALTRIMENTI SE num 1=num2 log parità
+else if (firstNumber==secondNumber) {
+console.log('Parità');    
+}
+//ALTRIMENTI log il secondo numero
+else {
     console.log(secondNumber);
 }
 
