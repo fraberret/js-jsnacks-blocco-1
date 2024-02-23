@@ -21,12 +21,12 @@ let secondWord = prompt('Inserisci la seconda parola')
 
 //SE lunghezza parola1>lunghezza parola2 log Parola1
 if (firstWord.length>secondWord.length) {
-    console.log(firstWord);
+    console.log(`Parola più corta ${secondWord} | Parola più lunga ${firstWord}`);
     
 }
 //SE lunghezza parola1<lunghezza parola2 log Parola2
 else if (firstWord.length<secondWord.length) {
-    console.log(secondWord);
+    console.log(`Parola più corta ${firstWord} | Parola più lunga ${secondWord}`);
     
 }
 //ALTRIMENTI log sono lunghe uguali
